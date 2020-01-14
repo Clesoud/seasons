@@ -6,6 +6,10 @@ const LoadingSpinner = (props) => {
             <div className="ui big text loader">{props.message}</div>
         </div>
     );
-}
+};
+
+LoadingSpinner.defaultProps = {
+    message: 'Loading...'
+};
 
 export default LoadingSpinner;
